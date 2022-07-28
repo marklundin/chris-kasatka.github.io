@@ -129,7 +129,7 @@ const App = () => {
                 <div className="card-body cardy">
                   <h5 className="card-title">Weather App</h5>
                   <p className="card-text">
-                    A weather app using html, css, React, APIs and Tailwind.
+                    A weather app using html, css, React, and APIs.
                   </p>
                   <a href="www.google.com" className="btn bts">
                     Go somewhere
