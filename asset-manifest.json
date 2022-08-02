@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/anthony-radose/static/css/main.da6b1fd8.css",
-    "main.js": "/anthony-radose/static/js/main.076e2f01.js",
-    "static/js/787.28cb0dcd.chunk.js": "/anthony-radose/static/js/787.28cb0dcd.chunk.js",
-    "static/media/bootstrap-icons.woff?": "/anthony-radose/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
-    "static/media/bootstrap-icons.woff2?": "/anthony-radose/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
-    "index.html": "/anthony-radose/index.html",
-    "main.da6b1fd8.css.map": "/anthony-radose/static/css/main.da6b1fd8.css.map",
-    "main.076e2f01.js.map": "/anthony-radose/static/js/main.076e2f01.js.map",
-    "787.28cb0dcd.chunk.js.map": "/anthony-radose/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/chris-kasatka.github.io/static/css/main.977f0b81.css",
+    "main.js": "/chris-kasatka.github.io/static/js/main.b65c8d69.js",
+    "static/js/787.28cb0dcd.chunk.js": "/chris-kasatka.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/chris-kasatka.github.io/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/bootstrap-icons.woff2?": "/chris-kasatka.github.io/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "index.html": "/chris-kasatka.github.io/index.html",
+    "main.977f0b81.css.map": "/chris-kasatka.github.io/static/css/main.977f0b81.css.map",
+    "main.b65c8d69.js.map": "/chris-kasatka.github.io/static/js/main.b65c8d69.js.map",
+    "787.28cb0dcd.chunk.js.map": "/chris-kasatka.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da6b1fd8.css",
-    "static/js/main.076e2f01.js"
+    "static/css/main.977f0b81.css",
+    "static/js/main.b65c8d69.js"
   ]
 }
