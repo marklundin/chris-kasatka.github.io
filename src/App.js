@@ -36,7 +36,7 @@ const App = () => {
             <li className="nav-item">
               <a
                 className="nav-link nav-links nav-icons"
-                href="https://github.com/Chris-Kasatka"
+                href="https://github.com/anthonyradose"
               >
                 <i className="bi bi-github"></i>
               </a>
