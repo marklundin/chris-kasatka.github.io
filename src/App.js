@@ -192,14 +192,14 @@ const App = () => {
             <ul id="footer-list">
               <li className="footer-li">
                 Email:{" "}
-                <a id="email " href="www.google.com">
+                <a id="email " href="www.csradose@hotmail.com">
                   csradose@hotmail.com
                 </a>
               </li>
               <li className="footer-li">
                 <a
                   className="footer-link footer-links footer-icons"
-                  href="https://github.com/Chris-Kasatka"
+                  href="https://github.com/anthonyradose"
                 >
                   <i className="bi bi-github"></i>
                 </a>
@@ -207,7 +207,7 @@ const App = () => {
               <li className="footer-li">
                 <a
                   className="footer-link footer-links footer-icons"
-                  href="https://www.instagram.com/csradose/"
+                  href="https://www.instagram.com/asradose/"
                 >
                   <i className="bi bi-instagram"></i>
                 </a>
