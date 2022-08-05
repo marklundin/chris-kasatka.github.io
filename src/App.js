@@ -44,7 +44,7 @@ const App = () => {
             <li className="nav-item">
               <a
                 className="nav-link nav-links nav-icons"
-                href="https://www.instagram.com/csradose/"
+                href="https://www.instagram.com/asradose/"
               >
                 <i className="bi bi-instagram"></i>
               </a>
