@@ -80,7 +80,7 @@ const App = () => {
             <h3>Projects</h3>
             <div className="container" id="cards-div">
               <div className="card">
-                <a href="https://github.com/Chris-Kasatka/CyberDyne">
+                <a href="https://github.com/anthonyradose/cyber-dyne">
                   <img
                     src="https://live.staticflickr.com/65535/52174848461_e6d925ae6d_b.jpg"
                     className="card-img-top"
@@ -99,7 +99,7 @@ const App = () => {
                 </div>
               </div>
               <div className="card">
-                <a href="https://chris-kasatka.github.io/pokemon-app/">
+                <a href="https://anthonyradose.github.io/pokemon-app/">
                   <img
                     src="https://live.staticflickr.com/65535/52175338960_0c9c21326f_b.jpg"
                     className="card-img-top"
