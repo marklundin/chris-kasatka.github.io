@@ -94,7 +94,7 @@ const App = () => {
                     and vanilla Javascript.
                   </p>
                   <a href="/cyber-dyne" className="btn bts">
-                    Go somewhere
+                    Take me there
                   </a>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const App = () => {
                     utilizing an API.
                   </p>
                   <a href="/pokemon-app" className="btn bts">
-                    Go somewhere
+                    Take me there
                   </a>
                 </div>
               </div>
@@ -132,7 +132,7 @@ const App = () => {
                     A weather app using html, css, React, and APIs.
                   </p>
                   <a href="/weather-app" className="btn bts">
-                    Go somewhere
+                    Take me there
                   </a>
                 </div>
               </div>
