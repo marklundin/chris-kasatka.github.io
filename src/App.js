@@ -80,7 +80,7 @@ const App = () => {
             <h3>Projects</h3>
             <div className="container" id="cards-div">
               <div className="card">
-                <a href="https://github.com/anthonyradose/cyber-dyne">
+                <a href="/cyber-dyne">
                   <img
                     src="https://live.staticflickr.com/65535/52174848461_e6d925ae6d_b.jpg"
                     className="card-img-top"
@@ -93,13 +93,13 @@ const App = () => {
                     A todo list app inspired by a 90s aesthetic using html, css
                     and vanilla Javascript.
                   </p>
-                  <a href="www.google.com" className="btn bts">
+                  <a href="/cyber-dyne" className="btn bts">
                     Go somewhere
                   </a>
                 </div>
               </div>
               <div className="card">
-                <a href="https://anthonyradose.github.io/pokemon-app/">
+                <a href="/pokemon-app">
                   <img
                     src="https://live.staticflickr.com/65535/52175338960_0c9c21326f_b.jpg"
                     className="card-img-top"
@@ -113,13 +113,13 @@ const App = () => {
                     google using HTML, CSS, React, the framework Material UI and
                     utilizing an API.
                   </p>
-                  <a href="www.google.com" className="btn bts">
+                  <a href="/pokemon-app" className="btn bts">
                     Go somewhere
                   </a>
                 </div>
               </div>
               <div className="card">
-                <a href="www.google.com">
+                <a href="/weather-app">
                   <img
                     src="https://images.unsplash.com/photo-1610337673044-720471f83677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80"
                     className="card-img-top"
@@ -131,7 +131,7 @@ const App = () => {
                   <p className="card-text">
                     A weather app using html, css, React, and APIs.
                   </p>
-                  <a href="www.google.com" className="btn bts">
+                  <a href="/weather-app" className="btn bts">
                     Go somewhere
                   </a>
                 </div>
@@ -192,7 +192,7 @@ const App = () => {
             <ul id="footer-list">
               <li className="footer-li">
                 Email:{" "}
-                <a id="email " href="www.csradose@hotmail.com">
+                <a id="email " href="www.asradose@gmail.com">
                   csradose@hotmail.com
                 </a>
               </li>
