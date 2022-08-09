@@ -192,9 +192,9 @@ const App = () => {
             <ul id="footer-list">
               <li className="footer-li">
                 Email:{" "}
-                <a id="email " href="www.asradose@gmail.com">
-                  csradose@hotmail.com
-                </a>
+                <span>
+                  asradose@gmail.com
+                  </span>
               </li>
               <li className="footer-li">
                 <a
