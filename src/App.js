@@ -69,9 +69,11 @@ const App = () => {
               <h2>Front-end Developer</h2>
             </div>
             <div class="arrow-container">
+              <a href="#projects">
               <div class="arrow1"></div>
               <div class="arrow2"></div>
               <div class="arrow3"></div>
+              </a>
             </div>
           </div>
         </section>
