@@ -186,7 +186,7 @@ const App = () => {
         </section>
       </main>
       <footer id="contact">
-        <div className="container">
+        <div className="container" id="footer-div">
           <h2 className="footer-h2">Contact</h2>
           <div>
             <ul id="footer-list">

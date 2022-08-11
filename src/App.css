@@ -7,8 +7,8 @@
 
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100vh; */
   overflow: auto;
     font-family: 'Gugi', cursive;
 
@@ -19,29 +19,34 @@
   /* font-family: 'VT323', monospace; */
   /* font-family: Helvetica, sans-serif; */
 }
-
+img{
+  object-fit: cover;
+}
 
 #navvy{
-  height: 64px;
+  height: 8.1vh;
   display: flex;
   justify-content: space-between;
   background-color: aliceblue;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
 }
 .Intro{
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   
 }
 #heading{
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 #h-divs{
-  height: 50%;
+  height: 50vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -82,7 +87,7 @@ color: white;
 color: white;
 }
 .projects{
-  height: 100%;
+  height: 100vh;
 }
 .eye{
   width: 48px;
@@ -104,12 +109,12 @@ color: white;
 .preloader-scan {
   display: flex;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
  width: 100%;
   text-align: center;
 }
 #about-me{
-  height: 100%;
+  height: 100vh;
 }
 .diode {
   animation: beam 0.01s infinite;
@@ -197,6 +202,9 @@ color: white;
   width: 100%;
 }
 
+#footer-div{
+  height: 30vh;
+}
 
 #about-h3{
   padding-top: 64px
@@ -268,7 +276,7 @@ color: white;
 }
 
 main{
-  height: 100%;
+  /* height: 100%; */
   overflow: auto;
 }
 
@@ -285,7 +293,7 @@ main{
   height: 70%;
 }
 footer{
-  height: 30%;
+  /* height: 30%; */
   background-color: #373C49;
 }
 
