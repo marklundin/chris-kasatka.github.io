@@ -2,11 +2,11 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <header>
+      <header id="top">
         <ul className="nav" id="navvy">
           <div className="divvy divvy1">
             <li className="nav-item">
-              <a href="google.com">
+              <a href="#top">
                 <img
                   src="https://lh3.googleusercontent.com/pw/AM-JKLUzpq0sXQMAE8LcdYKochNGwIRCg_ePf6cPBaXAURANs_EckbgG6UBlWkXepbSJhnYiGkM2bwbgGNmlh-ic8EnlH-dJ9rtGSgepfO2R--QLMzydns1HQa14mEHagIPXq5VJrdMrA3jQmQl9w-uowkDV=s824-no?authuser=0"
                   alt="Z"
