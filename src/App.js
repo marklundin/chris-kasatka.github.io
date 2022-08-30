@@ -1,64 +1,12 @@
 import "./App.css";
+import React from "react";
+import Nav from "./Nav/Nav";
+
 const App = () => {
   return (
     <div className="App">
       <header id="top">
-        <ul className="nav" id="navvy">
-          <div className="divvy divvy1">
-            <li className="nav-item">
-              <a href="#top">
-                <img
-                  src="https://lh3.googleusercontent.com/pw/AM-JKLUzpq0sXQMAE8LcdYKochNGwIRCg_ePf6cPBaXAURANs_EckbgG6UBlWkXepbSJhnYiGkM2bwbgGNmlh-ic8EnlH-dJ9rtGSgepfO2R--QLMzydns1HQa14mEHagIPXq5VJrdMrA3jQmQl9w-uowkDV=s824-no?authuser=0"
-                  alt="Z"
-                  className="eye"
-                />
-              </a>
-            </li>
-          </div>
-          <div className="divvy divvy2">
-            <li className="nav-item">
-              <a className="nav-link nav-links" href="#projects">
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link nav-links" href="#about-me">
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link nav-links" href="#contact">
-                Contact
-              </a>
-            </li>
-          </div>
-          <div className="divvy divvy3">
-            <li className="nav-item">
-              <a
-                className="nav-link nav-links nav-icons"
-                href="https://github.com/anthonyradose"
-              >
-                <i className="bi bi-github"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link nav-links nav-icons"
-                href="https://www.instagram.com/asradose/"
-              >
-                <i className="bi bi-instagram"></i>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className="nav-link nav-links nav-icons"
-                href="https://www.linkedin.com/in/anthony-radose-35a969236/"
-              >
-                <i className="bi bi-linkedin"></i>
-              </a>
-            </li>
-          </div>
-        </ul>
+        <Nav />
       </header>
 
       <main>
@@ -70,9 +18,9 @@ const App = () => {
             </div>
             <div class="arrow-container">
               <a href="#projects">
-              <div class="arrow1"></div>
-              <div class="arrow2"></div>
-              <div class="arrow3"></div>
+                <div class="arrow1"></div>
+                <div class="arrow2"></div>
+                <div class="arrow3"></div>
               </a>
             </div>
           </div>
@@ -142,8 +90,9 @@ const App = () => {
           </div>
         </section>
         <section id="about-me">
+        <div className="container" id="about-container">
           <h3 id="about-h3">About Me</h3>
-          <div className="container" id="about-container">
+     
             <p>
               David Lee Roth is a God, Blade Runner is the greatest movie of all
               time, and video games rule!
@@ -193,10 +142,7 @@ const App = () => {
           <div>
             <ul id="footer-list">
               <li className="footer-li">
-                Email:{" "}
-                <span>
-                  asradose@gmail.com
-                  </span>
+                Email: <span>asradose@gmail.com</span>
               </li>
               <li className="footer-li">
                 <a
