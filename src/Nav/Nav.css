@@ -103,6 +103,7 @@
   justify-content: space-between;
   background-color: #373c49;
   width: 100%;
+  overflow-wrap: anywhere;
 }
 .navigation-menu {
   display: none;
@@ -149,9 +150,11 @@
   .divvy1 {
     width: 30%;
   }
-  .divvy.divvy2,
+  .divvy.divvy2{
+    width: 57%;
+  }
   .divvy.divvy3 {
-    width: 50%;
+    width: 43%;
   }
   .navigation-menu.expanded {
     display: flex;

@@ -11,7 +11,7 @@ const App = () => {
 
       <main>
         <section className="Intro">
-          <div className="container intro-container" id="heading">
+          <div className="container-fluid intro-container" id="heading">
             <div id="h-divs">
               <h1 className="display-1">Anthony Radose</h1>
               <h2>Front-end Developer</h2>
@@ -26,10 +26,10 @@ const App = () => {
           </div>
         </section>
         <section className="projects" id="projects">
-          <div className="container projects-container">
-            <h3>Projects</h3>
-            <div className="container" id="cards-div">
-              <div className="card">
+          <div className="container-fluid projects-container">
+            <h2>Projects</h2>
+            <div className="container-fluid" id="cards-div">
+              <div className="card terminal">
                 <a href="/cyber-dyne">
                   <img
                     src="https://live.staticflickr.com/65535/52174848461_e6d925ae6d_b.jpg"
@@ -48,7 +48,7 @@ const App = () => {
                   </a>
                 </div>
               </div>
-              <div className="card">
+              <div className="card terminal">
                 <a href="/pokemon-app">
                   <img
                     src="https://live.staticflickr.com/65535/52175338960_0c9c21326f_b.jpg"
@@ -68,7 +68,7 @@ const App = () => {
                   </a>
                 </div>
               </div>
-              <div className="card">
+              <div className="card terminal">
                 <a href="/weather-app">
                   <img
                     src="https://images.unsplash.com/photo-1610337673044-720471f83677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1672&q=80"
@@ -90,8 +90,8 @@ const App = () => {
           </div>
         </section>
         <section id="about-me">
-        <div className="container" id="about-container">
-          <h3 id="about-h3">About Me</h3>
+        <div className="container-fluid" id="about-container">
+          <h2 id="about-h2">About Me</h2>
      
             <p>
               David Lee Roth is a God, Blade Runner is the greatest movie of all
@@ -101,7 +101,7 @@ const App = () => {
               I code, play the guitar, play video games, post rad stuff on
               instagram, and drink coffee and beer.
             </p>
-            <div className="container about-img-container">
+            <div className="container-fluid about-img-container">
               <img
                 src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
                 class="img-fluid about-img"
