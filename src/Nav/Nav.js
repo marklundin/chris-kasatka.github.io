@@ -1,9 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Nav.css";
 
 const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside, true);
+  });
+
+  const refOne = useRef(null);
+
+  const handleClickOutside = (e) => {
+    if (!refOne.current.contains(e.target)) {
+      setIsNavExpanded(false);
+      console.log(refOne);
+    }
+  };
   return (
     <ul className="nav" id="navvy">
       <div className="divvy divvy1">
@@ -31,6 +43,7 @@ const Nav = () => {
         className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }
+        ref={refOne}
       >
         <div className="divvy divvy2">
           <li className="nav-item">
