@@ -5,7 +5,10 @@ const Nav = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   useEffect(() => {
-    document.addEventListener("click", handleClickOutside, true);
+    document.addEventListener("click", handleClickOutside, true);  
+    return _ => {
+      document.removeEventListener("click", handleClickOutside);
+    }
   });
 
   const refOne = useRef(null);
@@ -13,7 +16,7 @@ const Nav = () => {
   const handleClickOutside = (e) => {
     if (!refOne.current.contains(e.target)) {
       setIsNavExpanded(false);
-      console.log(refOne);
+      console.log(refOne, e.target);
     }
   };
   return (
